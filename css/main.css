@@ -24,6 +24,13 @@ a:hover {
     color: #ecf0f1;
 }
 
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #2c3e50;
+}
+
 button {
     padding: .6rem 1rem;
     border: none;
@@ -43,8 +50,32 @@ button[type="reset"] {
 }
 
 /*************** FORMULAIRES ************/
-label {
-    display: block;
+form {
+    padding: 20px;
+    margin: 2em auto 80px;
+    max-width: 450px;
+    background: white;
+    border: 6px solid #2c3e50;
 }
 
+form > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+form > ul > li {
+    margin-bottom: 1.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    border: 2px solid #2c3e50;
+    padding: 1em;
+}
