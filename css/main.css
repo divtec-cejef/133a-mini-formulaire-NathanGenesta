@@ -68,6 +68,10 @@ form > ul > li {
     margin-bottom: 1.5em;
 }
 
+form > ul > li:last-of-type {
+    margin-bottom: 0;
+}
+
 label {
     display: block;
     margin-bottom: 0.5em;
@@ -78,4 +82,9 @@ label {
 input {
     border: 2px solid #2c3e50;
     padding: 1em;
+    width: 100%;
+    /* Forcer l'héritage de la police */
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
 }
