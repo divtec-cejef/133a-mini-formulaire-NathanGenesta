@@ -17,16 +17,21 @@
 <body>
 <h1>Mini Form</h1>
 <!-- VOTRE FORMULAIRE -->
-<form action="https://kode.ch/getpost" method="post">
-    <label for="email">E-mail</label>
-    <input id="email" name="email" type="text">
-
-    <label for="pwd">Mot de passe</label>
-    <input id="pwd" name="pwd" type="text">
-
-    <label for="confirmePwd">Confirmez le mot de passe</label>
-    <input id="confirmePwd" name="confirmePwd" type="text">
-
+<form action="https://kode.ch/getpost/" method="post">
+    <ul>
+        <li>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email">
+        </li>
+        <li>
+            <label for="pwd">Mot de passe</label>
+            <input id="pwd" name="pwd" type="password">
+        </li>
+        <li>
+            <label for="confirmePwd">Confirmez le mot de passe</label>
+            <input id="confirmePwd" name="confirmePwd" type="password">
+        </li>
+    </ul>
     <button>Créer un compte</button>
 </form>
 
