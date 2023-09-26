@@ -79,12 +79,41 @@ label {
     cursor: pointer;
 }
 
-input {
+label input {
+    width: auto;
+}
+
+label input + span {
+    font-weight: normal;
+}
+
+label input:checked + span {
+    font-weight: bold;
+}
+
+input,
+select {
     border: 2px solid #2c3e50;
     padding: 1em;
     width: 100%;
+    background-color: white;
     /* Forcer l'héritage de la police */
     font-family: inherit;
     font-size: inherit;
     color: inherit;
+}
+
+fieldset {
+    border: 2px solid #2c3e50;
+    padding: 0 1em;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+fieldset label {
+    padding: 1em 0;
+    margin: 0;
 }
